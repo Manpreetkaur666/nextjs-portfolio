@@ -14,20 +14,20 @@ const page = () => {
             alt="image for skills intro section"
           />
           <a
-            className="block text-xs text-slate-300 absolute left-72"
+            className="block text-xs text-slate-300 sm:absolute sm:left-72 text-center"
             href="https://storyset.com/work"
           >
             Work illustrations by Storyset
           </a>
         </div>
-        <div className="w-full sm:w-6/12 sm:mt-8">
-          <h1 className="text-4xl sm:text-5xl font-bold mt-4 sm:mt-24 mb-10 text-center">
+        <div className="w-full sm:w-6/12 mt-8">
+          <h1 className="text-4xl sm:text-5xl font-bold mt-4 sm:mt-24 sm:mb-10 text-center">
             Skills
           </h1>
           <h2 className="text-xl sm:text-2xl font-bold text-center text-yellow-color">
             Basic Qualifications and Certification
           </h2>
-          <p className="m-auto sm:w-3/4 text-center my-4">
+          <p className="m-auto sm:w-3/4 text-center my-4 p-2">
             My journey in web development began in 2016 after completing my
             degree in Computer Science,then in 2020 I completed my further
             studdies in Canada and since then, I have been on a relentless
@@ -39,7 +39,7 @@ const page = () => {
         </div>
       </div>
 
-      <div className="my-8">
+      <div className="sm:my-8 my-20">
         <p className="text-md font-bold text-yellow-color text-center">
           What I do?
         </p>
