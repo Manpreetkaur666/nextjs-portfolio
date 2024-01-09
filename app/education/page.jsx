@@ -10,7 +10,7 @@ const page = () => {
       <div className="edu-intro flex flex-col sm:flex-row">
         <div className="img-section w-full sm:w-6/12">
           <Image
-            className="w-10/12 sm:w-full sm:pt-0 sm:mt-0 mx-auto"
+            className="w-full sm:w-full sm:pt-0 sm:mt-0 mx-auto"
             src={gradHat}
             alt="image for education intro section"
           />
@@ -21,8 +21,8 @@ const page = () => {
             Education illustrations by Storyset
           </a>
         </div>
-        <div className="sm:w-6/12 sm:mt-8">
-          <h1 className="text-4xl sm:text-5xl font-bold mt-4 sm:mt-24 mb-10 text-center">
+        <div className="sm:w-6/12 mt-8">
+          <h1 className="text-4xl sm:text-5xl font-bold mt-4 sm:mt-24 sm:mb-10 mb-2 text-center">
             Education
           </h1>
           <h2 className="text-xl sm:text-2xl font-bold text-center text-yellow-color">
@@ -57,11 +57,11 @@ const page = () => {
         <p className="text-md font-bold text-yellow-color text-center">
           What is my qualification?
         </p>
-        <h2 className="text-4xl sm:text-5xl font-bold text-center mb-10">
+        <h2 className="text-4xl sm:text-5xl font-bold text-center sm:mb-10">
           Degrees Received
         </h2>
         {eduData.map((data, key) => (
-          <div className="flex flex-col justify-items-center sm:justify-around sm:flex-row my-6 p-0 sm:p-10">
+          <div className="flex flex-col justify-items-center sm:justify-around sm:flex-row sm:my-6 p-0 sm:p-10">
             <div className="sm:my-2 my-4">
               <Image
                 className="bg-contain mx-auto bg-center mt-16 shadow-2xl rounded-full w-64 h-64"
