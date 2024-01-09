@@ -6,29 +6,29 @@ import gradHat from "../../public/images/educationPage/gradHat.svg";
 
 const page = () => {
   return (
-    <div className="p-2 overscroll-x-none">
+    <div className="overscroll-x-none">
       <div className="edu-intro flex flex-col sm:flex-row">
         <div className="img-section w-full sm:w-6/12">
           <Image
-            className="w-full pt-0 mt-0"
+            className="w-10/12 sm:w-full sm:pt-0 sm:mt-0 mx-auto"
             src={gradHat}
             alt="image for education intro section"
           />
           <a
             href="https://storyset.com/education"
-            className="block text-xs text-slate-300 absolute left-72"
+            className="block text-xs text-slate-300 sm:absolute sm:left-72 text-center"
           >
             Education illustrations by Storyset
           </a>
         </div>
-        <div className="w-full sm:w-6/12 sm:mt-8">
+        <div className="sm:w-6/12 sm:mt-8">
           <h1 className="text-4xl sm:text-5xl font-bold mt-4 sm:mt-24 mb-10 text-center">
             Education
           </h1>
           <h2 className="text-xl sm:text-2xl font-bold text-center text-yellow-color">
             Basic Qualifications and Certification
           </h2>
-          <div className="w-max m-auto my-4">
+          <div className="w-fit m-auto my-4 flex flex-wrap justify-around">
             {logoData.map((data, index) => (
               <Image
                 width={70}
@@ -39,7 +39,7 @@ const page = () => {
               />
             ))}
           </div>
-          <p className="m-auto sm:w-3/4 text-center">
+          <p className="m-auto sm:w-3/4 text-center p-2">
             My journey in web development began in 2016 after completing my
             degree in Computer Science,then in 2020 I completed my further
             studdies in Canada and since then, I have been on a relentless
@@ -120,7 +120,7 @@ const page = () => {
                   width={300}
                   height={300}
                   src={data.img}
-                  alt="meta logo"
+                  alt="logo"
                 />
               </div>
               <div className="p-4">
@@ -130,6 +130,13 @@ const page = () => {
                 <p className="text-gray-700 my-4">
                   <span className="font-bold">Skills:</span> {data.desc}
                 </p>
+                <a
+                  target="_blank"
+                  href={data.link}
+                  className="text-center text-blue-700 underline underline-offset-2"
+                >
+                  see credentials
+                </a>
               </div>
             </a>
           ))}

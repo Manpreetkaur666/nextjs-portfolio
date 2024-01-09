@@ -28,29 +28,40 @@ export const eduData = [
 
 export const certData = [
     {
+        img: "/images/educationPage/comITLogo.jpeg",
+        title: "Full Stack JAVA Developer",
+        desc: "HTML · CSS · JSP · Servlets · JAVA · Springboot · Algorithms and Programming · OOPs · Error Handling · Databases & SQL · Thymeleaf",
+        link: "https://certificates.comit.org/093be697-2f6d-43f7-9ed3-48d386521386?record_view=true#gs.2tzrdm"
+    },
+    {
         img: "/images/educationPage/metaLogo.png",
         title: "Meta Front-end Developer",
-        desc: "UX/UI · Git · React.js · JavaScript · Front-End Development"
+        desc: "UX/UI · Git · React.js · JavaScript · Front-End Development",
+        link: "https://www.coursera.org/account/accomplishments/specialization/certificate/TGGZFECNGDTB"
     },
     {
         img: "/images/educationPage/metaLogo.png",
         title: "Programming with Javascript",
-        desc: "Functional Programming · Object-Oriented Programming (OOP) · ES6 · Jest · JavaScript"
+        desc: "Functional Programming · Object-Oriented Programming (OOP) · ES6 · Jest · JavaScript",
+        link: "https://www.coursera.org/account/accomplishments/verify/XN8A4N24ALW8?utm_source=ios&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course"
     },
     {
         img: "/images/educationPage/udemyLogo.png",
         title: "The Complete 2023 Web Development Bootcamp - Udemy",
-        desc: "Node.js · Full-Stack Development · React.js · JavaScript · Front-End Development"
+        desc: "Node.js · Full-Stack Development · React.js · JavaScript · Front-End Development",
+        link: "https://www.udemy.com/certificate/UC-cd9f6937-4801-42c9-954b-5465b9b2fb3b/"
     },
     {
         img: "/images/educationPage/sasLogo.png",
         title: "SAS Certified Predictive Modeler Using SAS Enterprise Miner 14",
-        desc: "SAS"
+        desc: "SAS",
+        link: "#"
     },
     {
         img: "/images/educationPage/niitLogo.avif",
         title: "JAVA Developer - NIIT",
-        desc: "Java, oops, JDBC, Spring Boot, Thmyeleaf"
+        desc: "Java, oops, JDBC, fundamentals of JAVA, Encapsulation, Polymorphism, Inheritance, Abstraction",
+        link: "https://drive.google.com/file/d/1IYp9_Eh9tZ1sdHJCilyUw8gw8On1_hS-/view"
     },
 ]
 
