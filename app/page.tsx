@@ -47,17 +47,17 @@ export default function Home() {
 
         {/***************************** Skills ******************************/}
 
-        <div className="skills-section my-12 sm:my-4">
+        <div className="skills-section my-24 sm:my-12 sm:my-4">
           <p className="text-md font-bold text-yellow-color text-center">
             What I know?
           </p>
-          <h2 className="text-4xl sm:text-5xl font-bold text-center mb-10">
+          <h2 className="text-4xl sm:text-5xl font-bold text-center sm:mb-8">
             My Expertise
           </h2>
 
           {mainData.map((data, index) => (
             <div
-              className="skills flex sm:flex-row flex-col-reverse justify-between my-10"
+              className="skills flex sm:flex-row flex-col-reverse justify-between sm:my-10 my-4"
               key={index}
             >
               <div className="image-section relative flex-auto w-max my-auto text-center">
@@ -70,7 +70,7 @@ export default function Home() {
                 />
                 <div className="text-center">
                   <a
-                    className="absolute sm:bottom-4 sm:right-14 right-8 text-xs"
+                    className="md:absolute text-center sm:bottom-4 sm:right-14 md:right-8 text-xs"
                     href={data.source}
                   >
                     {data.sourcetext}
@@ -83,7 +83,7 @@ export default function Home() {
                 </h2>
                 {data.desc.map((listData, index) => (
                   <ul key={index}>
-                    <li className="my-4 py-4">
+                    <li className="my-2 sm:my-4 py-2 sm:py-4 px-4">
                       <p className="font-normal">{listData}</p>
                     </li>
                   </ul>
