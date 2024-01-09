@@ -16,19 +16,19 @@ const page = () => {
           />
           <a
             href="https://storyset.com/business"
-            className="block text-xs text-slate-300 absolute left-72"
+            className="block text-xs text-slate-300 sm:absolute sm:left-72 text-center"
           >
             Business illustrations by Storyset
           </a>
         </div>
-        <div className="w-full sm:w-6/12 sm:my-9">
-          <h1 className="text-4xl sm:text-5xl font-bold mt-4 sm:mt-24 mb-10 text-center">
+        <div className="w-full sm:w-6/12 my-9">
+          <h1 className="text-4xl sm:text-5xl font-bold mt-4 sm:mt-24 sm:mb-10 text-center">
             Experinece
           </h1>
           <h2 className="text-xl sm:text-2xl font-bold text-center text-yellow-color">
             Work, Internship, Volunteership
           </h2>
-          <p className="m-auto sm:w-3/4 text-center my-4">
+          <p className="m-auto sm:w-3/4 text-center my-4 p-2">
             I have worked with many evolving startups as ML and DL Developer,
             Designer and Software Architect. I have also worked with some well
             established companies mostly as AI Developer. I love organising

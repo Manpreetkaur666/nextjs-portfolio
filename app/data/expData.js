@@ -1,10 +1,29 @@
 export const expData = [
     {
-        leftTitle: "Assistant",
-        leftYear: "2020",
-        leftDesc: ["Provided tutoring to students in the Computers Studies Program which helps them to understand and perform better in their academics.",
-            "Used HTML, CSS, JavaScript, React, and Firebase knowledge to help and teach students how to use designing and development skills to build optimized websites."
-    ],
+        leftTitle: "Bell Sales Representative - Nordia",
+        leftYear: "08/2022 - 10/2022",
+        leftDesc: [
+            "Developed strong verbal and written communication skills through client interactions, negotiations, and presentations.",
+            "Effectively managed time and priorities to meet deadlines, balancing multiple tasks and responsibilities simultaneously.",
+            "Developed flexibility in adapting to changing market conditions, client needs, and evolving business strategies."
+        ],
+        rgtTitle: "Mobile Phone Technician - MobileKlinik",
+        rgtYear: "06/2021 - 08/2022",
+        rgtDesc: [
+            "Effectively maintained communication when explaining technical issues and solutions to non-technical users.",
+            "Expertly conducted testing and quality assurance for mobile devices to ensure best services to the customers.",
+            "Committed to provide data security and privacy ensuring safeguarding sensitive information."
+            ]
+    },
+    {
+        leftTitle: "Computer Studies Teaching Assistant - Georgian College",
+        leftYear: "02/2020 - 05/2020",
+        leftDesc: [
+            "Led impactful peer tutoring in the Computers Studies Program, executing one-to-one and virtual sessions that empowered students to excel. Provided strategic support for student success, fostering personalized guidance and tangible achievements while contributing to heightened academic performance.",
+            "Collaborated seamlessly with a co-employee to optimize strategies, delivering top-notch assistance for consulting students, ensuring a unified and comprehensive support system.",
+            "Regularly liaised with the program coordinator, delivering comprehensive reports on program outcomes, and conducted strategic meetings with professors to optimize learning experiences for every student.",
+            "Skills – Object Oriented Programming, Web Development, Mobile App Development, HTML, CSS, Bootstrap, React JS, JavaScript, Nodejs, MongoDB."
+        ],
         rgtTitle: "Web Developer",
         rgtYear: "2016-2019",
         rgtDesc: [
