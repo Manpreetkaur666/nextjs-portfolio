@@ -8,7 +8,7 @@ export default function Home() {
     <div className="w-full">
       <div className="mx-2 sm:mx-6">
         <div className="intro-section flex flex-col sm:flex-row h-full">
-          <div className="w-full sm:w-1/2 my-2 sm:my-auto sm:ml-8">
+          <div className="w-full sm:w-1/2 my-2 sm:my-auto sm:ml-8 text-center md:text-left backdrop-blur-sm bg-white/10 md:bg-transparent md:backdrop-blur-none p-4 mt-20 mb-6">
             <h1 className="text-2xl sm:text-5xl font-bold mb-2">
               Manpreet Kaur
             </h1>
@@ -37,7 +37,7 @@ export default function Home() {
               alt="vector image"
             />
             <a
-              className="block text-xs text-slate-300 absolute right-36"
+              className="block text-xs text-slate-300 md:absolute md:right-36 text-center"
               href="https://storyset.com/web"
             >
               Image source: Web illustrations by Storyset
@@ -62,10 +62,10 @@ export default function Home() {
             >
               <div className="image-section relative flex-auto w-max my-auto text-center">
                 <Image
-                  width={500}
-                  height={500}
+                  width={300}
+                  height={300}
                   src={data.img}
-                  className="w-full sm:w-10/12 h-full"
+                  className="sm:w-10/12 h-full"
                   alt="test image"
                 />
                 <div className="text-center">
@@ -78,7 +78,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="desc-section sm:flex-auto flex-none sm:w-1/3">
-                <h2 className="text-xl sm:text-4xl sm:mb-12 mb-4 mt-8 text-center sm:text-left font-medium underline underline-offset-8 decoration-2">
+                <h2 className="text-2xl sm:text-4xl sm:mb-12 mb-4 mt-8 text-center sm:text-left font-medium underline underline-offset-8 decoration-2">
                   {data.title}
                 </h2>
                 {data.desc.map((listData, index) => (

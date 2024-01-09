@@ -11,11 +11,11 @@
   --background-end-rgb: 255, 255, 255;
 }
 
-nav span {
+/* nav span {
   font-family: "Qwitcher Grypen", cursive;
   font-weight: 400;
   font-size: x-large;
-}
+} */
 
 body {
   overflow-x: hidden;
@@ -26,6 +26,10 @@ body {
 .container {
   overflow-x: hidden;
 }
+
+/* .intro-section {
+  background: rgba(88, 90, 88, 0.3);
+} */
 
 /*********************************Experience Timeline***********************************/
 
