@@ -51,13 +51,13 @@ const Page = () => {
           />
           <a
             href="https://storyset.com/work"
-            className="block text-xs text-slate-300 absolute left-72"
+            className="block text-xs text-slate-300 sm:absolute sm:left-72 text-center"
           >
             Work illustrations by Storyset
           </a>
         </div>
         <div className="desc-section w-full sm:w-6/12">
-          <h1 className="text-4xl sm:text-5xl font-bold mt-4 sm:mt-14 mb-10 text-center">
+          <h1 className="text-4xl sm:text-5xl font-bold mt-4 mt-14 sm:mb-10 text-center">
             Contact
           </h1>
           <h2 className="text-xl sm:text-2xl font-bold text-center text-yellow-color">
@@ -68,7 +68,7 @@ const Page = () => {
             will reply within 24 hours. I can help you with Javascript, React,
             Java, MySql, MongoDB, frontend and backend Development.
           </p>
-          <div className="social-icons w-fit mx-auto my-2">
+          <div className="social-icons w-fit mx-auto my-2 text-center">
             <a
               className="contact-btn text-center w-8 h-8 m-4 p-3 rounded-full bg-yellow-color hover:bg-orange-400"
               target="_blank"
