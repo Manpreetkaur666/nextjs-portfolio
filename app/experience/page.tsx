@@ -69,25 +69,27 @@ const page = () => {
                   </ul>
                 </div>
               </div>
-              <div className="exp-container right">
-                <div className="content">
-                  <div className="flex justify-between my-2">
-                    <h2 className="font-bold text-black text-lg">
-                      {data.rgtTitle}
-                    </h2>
-                    <h2 className="font-bold text-black text-lg">
-                      {data.rgtYear}
-                    </h2>
+              {data.rgtTitle && (
+                <div className="exp-container right">
+                  <div className="content">
+                    <div className="flex justify-between my-2">
+                      <h2 className="font-bold text-black text-lg">
+                        {data.rgtTitle}
+                      </h2>
+                      <h2 className="font-bold text-black text-lg">
+                        {data.rgtYear}
+                      </h2>
+                    </div>
+                    <ul className="text-gray-600">
+                      {data.rgtDesc?.map((descList, index) => (
+                        <li className="list-disc p-2" key={index}>
+                          {descList}
+                        </li>
+                      ))}
+                    </ul>
                   </div>
-                  <ul className="text-gray-600">
-                    {data.rgtDesc.map((descList, index) => (
-                      <li className="list-disc p-2" key={index}>
-                        {descList}
-                      </li>
-                    ))}
-                  </ul>
                 </div>
-              </div>
+              )}
             </div>
           ))}
         </div>

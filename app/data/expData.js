@@ -19,32 +19,25 @@ export const expData = [
         leftTitle: "Computer Studies Teaching Assistant - Georgian College",
         leftYear: "02/2020 - 05/2020",
         leftDesc: [
-            "Led impactful peer tutoring in the Computers Studies Program, executing one-to-one and virtual sessions that empowered students to excel. Provided strategic support for student success, fostering personalized guidance and tangible achievements while contributing to heightened academic performance.",
-            "Collaborated seamlessly with a co-employee to optimize strategies, delivering top-notch assistance for consulting students, ensuring a unified and comprehensive support system.",
-            "Regularly liaised with the program coordinator, delivering comprehensive reports on program outcomes, and conducted strategic meetings with professors to optimize learning experiences for every student.",
-            "Skills – Object Oriented Programming, Web Development, Mobile App Development, HTML, CSS, Bootstrap, React JS, JavaScript, Nodejs, MongoDB."
+            "Led impactful peer tutoring in the Computers Studies Program, executing one-to-one and virtual sessions that empowered students to excel.",
+            "Collaborated seamlessly with a co-employee to optimize strategies, delivering top-notch assistance for consulting students.",
+            "Regularly liaised with the program coordinator, delivering comprehensive reports on program outcomes.",
         ],
-        rgtTitle: "Web Developer",
-        rgtYear: "2016-2019",
+        rgtTitle: "Volunteer Software Developer",
+        rgtYear: "2016-2017",
         rgtDesc: [
-            "Built website content and designs using HTML, and CSS and used JavaScript, JAVA, and python for coding which increases my knowledge and make me more efficient.",
-            "Attended client and project meetings to identify and document user requirements which helps me to fulfill clients' needs.",
-            "Modified web applications to improve functionality and user experiences which increases web traffic by 10 % within a month after that."]
+            "Pioneered the creation of impactful website content and designs, harnessing the power of UI/UX tools and implementing state-of-the-art web design methodologies.",
+            "Spearheaded impactful modifications to web applications, resulting in a substantial 10% increase in web traffic within a month.",
+            "Engineered robust user authentication and authorization systems using cutting-edge JWT (JSON Web Tokens) technology, fortifying security measures to safeguard sensitive data."
+        ]
     },
     {
-        leftTitle: "Web Developer Intern",
-        leftYear: "2016",
+        leftTitle: "Software Developer Intern",
+        leftYear: "01/2016 - 06/2016",
         leftDesc: [
-            "Generated efficient, modular, and maintainable code on both front-end and back-end using HTML, CSS, JAVA, and MYSQL which gives 100% understandable codes to upcoming teams",
-            "Worked closely with development team members to identify and remove software bugs helps in increasing the website performance by 20%.",
-            "Shadowed team engineers to learn and gain professional hand on experience.",
-            "Achievement: Received Intern and Project Certification."
-        ],
-        rgtTitle: "Web Developer",
-        rgtYear: "2016-2019",
-        rgtDesc: [
-            "Built website content and designs using HTML, and CSS and used JavaScript, JAVA, and python for coding which increases my knowledge and make me more efficient.",
-            "Attended client and project meetings to identify and document user requirements which helps me to fulfill clients' needs.",
-            "Modified web applications to improve functionality and user experiences which increases web traffic by 10 % within a month after that."]
+            "Collaborated seamlessly with the development team, actively identifying, and eliminating software bugs, resulting in a remarkable 20% enhancement in website performance through targeted improvements.",
+            "Shadowed team engineers to learn and to gain professional hand on experience.",
+            "Pursued immersive shadowing with engineering team, proactively learning from seasoned professionals, acquiring practical expertise in a professional setting.",
+        ]
     },
 ]
