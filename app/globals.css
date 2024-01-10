@@ -133,7 +133,7 @@ body {
   transition: 0.3s ease;
   overflow: hidden;
   position: relative;
-  background-color: #e56161;
+  /* background-color: #e56161; */
   margin: 2vmax 0;
 }
 
