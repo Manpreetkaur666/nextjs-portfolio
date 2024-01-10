@@ -40,13 +40,15 @@ const page = () => {
             ))}
           </div>
           <p className="m-auto sm:w-3/4 text-center p-2">
-            My journey in web development began in 2016 after completing my
-            degree in Computer Science,then in 2020 I completed my further
-            studdies in Canada and since then, I have been on a relentless
-            pursuit of mastering the ever-evolving landscape of web
-            technologies. I have a strong command over a wide range of
-            programming languages, which allows me to bridge the gap between
-            design and technical implementation.
+            Embarking on my web development journey in 2016 following a degree
+            in Computer Science, I took a significant stride in 2020 by pursuing
+            further studies in Canada. Since then, my focus has been an
+            unwavering dedication to mastering the dynamic world of web
+            technologies. With a solid command of diverse programming languages,
+            I seamlessly connect design with technical implementation. Committed
+            to staying ahead, I&apos;ve earned multiple certifications,
+            constantly upgrading and enhancing my skills to ensure I bring a
+            cutting-edge proficiency to every project.
           </p>
         </div>
       </div>

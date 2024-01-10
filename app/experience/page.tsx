@@ -29,11 +29,14 @@ const page = () => {
             Work, Internship, Volunteership
           </h2>
           <p className="m-auto sm:w-3/4 text-center my-4 p-2">
-            I have worked with many evolving startups as ML and DL Developer,
-            Designer and Software Architect. I have also worked with some well
-            established companies mostly as AI Developer. I love organising
-            events and that is why I am also involved with many opensource
-            communities as a representative.
+            I've played pivotal roles in the dynamic world of startups,
+            contributing my expertise as a Developer, Designer, and Software
+            Architect to foster their growth. In addition, I've seamlessly
+            transitioned into collaborating with reputable, established
+            companies, primarily functioning as a Web Developer. My versatile
+            skill set, honed through experiences with both evolving startups and
+            established enterprises, positions me as a valuable asset ready to
+            tackle diverse challenges in the ever-evolving tech landscape.
           </p>
         </div>
       </div>

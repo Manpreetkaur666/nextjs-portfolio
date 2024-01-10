@@ -36,7 +36,7 @@ const page = () => {
             interfaces to designing robust server-side architecture. In addition
             to mastering languages like HTML, CSS, JavaScript, and frameworks
             such as React on the front end, I am equally adept at working with
-            server-side technologies like Node.js, Python and Java.
+            server-side technologies like Node.js and Java.
           </p>
         </div>
       </div>

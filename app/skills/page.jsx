@@ -28,13 +28,17 @@ const page = () => {
             Basic Qualifications and Certification
           </h2>
           <p className="m-auto sm:w-3/4 text-center my-4 p-2">
-            My journey in web development began in 2016 after completing my
-            degree in Computer Science,then in 2020 I completed my further
-            studdies in Canada and since then, I have been on a relentless
-            pursuit of mastering the ever-evolving landscape of web
-            technologies. I have a strong command over a wide range of
-            programming languages, which allows me to bridge the gap between
-            design and technical implementation.
+            Proficient in a diverse set of programming languages, including but
+            not limited to HTML, CSS, JavaScript, and JAVA. Expertise in
+            front-end technologies such as React, coupled with a
+            robust understanding of back-end frameworks like Node.js. Hands-on
+            experience in responsive web design and a keen eye for user
+            interface and user experience. Strong problem-solving skills and a
+            knack for optimizing web performance. Familiarity with version
+            control systems, databases, and cloud services. Continuously staying
+            updated with the latest industry trends and technologies to ensure
+            cutting-edge development solutions. Effective communication and
+            collaboration abilities within cross-functional teams.
           </p>
         </div>
       </div>
