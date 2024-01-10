@@ -52,17 +52,17 @@ const page = () => {
               <div className="exp-container left">
                 <div className="content">
                   <div className="flex justify-between my-2">
-                    <h2 className="font-bold text-black text-lg">
+                    <h2 className="font-bold text-black text-sm sm:text-md">
                       {data.leftTitle}
                     </h2>
-                    <h2 className="font-bold text-black text-lg">
+                    <h2 className="font-bold text-black text-sm sm:text-md">
                       {data.leftYear}
                     </h2>
                   </div>
 
                   <ul className="text-gray-600">
                     {data.leftDesc.map((descList, index) => (
-                      <li className="list-disc p-2" key={index}>
+                      <li className="list-disc p-2 text-sm" key={index}>
                         {descList}
                       </li>
                     ))}
@@ -73,16 +73,16 @@ const page = () => {
                 <div className="exp-container right">
                   <div className="content">
                     <div className="flex justify-between my-2">
-                      <h2 className="font-bold text-black text-lg">
+                      <h2 className="font-bold text-black text-sm sm:text-md">
                         {data.rgtTitle}
                       </h2>
-                      <h2 className="font-bold text-black text-lg">
+                      <h2 className="font-bold text-black text-sm sm:text-md">
                         {data.rgtYear}
                       </h2>
                     </div>
                     <ul className="text-gray-600">
                       {data.rgtDesc?.map((descList, index) => (
-                        <li className="list-disc p-2" key={index}>
+                        <li className="list-disc p-2 text-sm" key={index}>
                           {descList}
                         </li>
                       ))}
