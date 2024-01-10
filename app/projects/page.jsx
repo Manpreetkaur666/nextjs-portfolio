@@ -18,13 +18,13 @@ const page = () => {
           />
           <a
             href="https://storyset.com/work"
-            className="block text-xs text-slate-300 absolute left-72"
+            className="block text-xs text-slate-300 sm:absolute sm:left-72 text-center"
           >
             Work illustrations by Storyset
           </a>
         </div>
-        <div className="desc-section w-full sm:w-6/12 sm:my-9">
-          <h1 className="text-4xl sm:text-5xl font-bold mt-4 sm:mt-14 mb-10 text-center">
+        <div className="desc-section w-full sm:w-6/12 my-9">
+          <h1 className="text-4xl sm:text-5xl font-bold mt-4 sm:mt-14 sm:mb-10 text-center">
             Projects
           </h1>
           <h2 className="text-xl sm:text-2xl font-bold text-center text-yellow-color">
