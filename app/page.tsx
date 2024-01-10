@@ -16,9 +16,12 @@ export default function Home() {
               (Web Developer)
             </p>
             <p className="text-md sm:text-lg">
-              A passionate individual who always thrives to work on end to end
-              products which develop sustainable and scalable social and
-              technical systems to create impact.
+              Welcome to my digital playground! As a web artisan, I sculpt
+              immersive online experiences that resonate. Let&apos;s embark on a
+              journey where code meets creativity, and your vision becomes a
+              pixel-perfect reality.<br />
+              Let&apos;s build something extraordinary!
+              💻✨
             </p>
             <div className="my-4">
               <a

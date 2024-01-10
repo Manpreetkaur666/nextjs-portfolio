@@ -24,7 +24,7 @@ const Navbar = () => {
             className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
             aria-controls="navbar-default"
             aria-expanded="false"
-            onClick={() => setShow(!show)}
+            // onClick={() => setShow(!show)}
           >
             <span className="sr-only">Open main menu</span>
             <svg
@@ -44,7 +44,7 @@ const Navbar = () => {
             </svg>
           </button>
           <div
-            style={{ display: show ? "initial" : "none" }}
+            // style={{ display: show ? "initial" : "none" }}
             className="hidden w-full md:block md:w-auto bg-transparent"
             id="navbar-default"
           >
@@ -53,7 +53,7 @@ const Navbar = () => {
                 <li key={index} className="hover:text-yellow-color text-right">
                   <Link
                     href={item.link}
-                    onClick={() => setShow(false)}
+                    // onClick={() => setShow(false)}
                     className="hover:transition ease-in-out delay-150 hover:-translate-y-0.5 block py-2 px-3 text-white hover:text-yellow-color md:border-0 md:p-0 dark:text-white"
                   >
                     {item.name}
