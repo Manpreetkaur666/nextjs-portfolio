@@ -57,7 +57,7 @@ const Page = () => {
           </a>
         </div>
         <div className="desc-section w-full sm:w-6/12">
-          <h1 className="text-4xl sm:text-5xl font-bold mt-4 mt-14 sm:mb-10 text-center">
+          <h1 className="text-4xl sm:text-5xl font-bold mt-20 sm:mb-10 text-center">
             Contact
           </h1>
           <h2 className="text-xl sm:text-2xl font-bold text-center text-yellow-color">
