@@ -9,7 +9,7 @@ const Navbar = () => {
   //   setShow(false);
   // }, [show,setShow]);
 
-  console.log(show);
+  
   return (
     <div>
       <nav className="bg-transparent border-gray-200 dark:bg-gray-900 p-4">

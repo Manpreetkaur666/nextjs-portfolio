@@ -91,8 +91,10 @@ const page = () => {
               </div>
 
               <div className="p-6">
-                <p className="py-4 block font-sans text-base antialiased font-light leading-relaxed text-inherit">
-                  {data.desc}
+                <p className="py-4 block font-sans text-base antialiased font-light leading-relaxed text-slate-600">
+                  {data.desc.map((item) => (
+                    <li className="text-slate-600">{item}</li>
+                  ))}
                 </p>
               </div>
             </div>
