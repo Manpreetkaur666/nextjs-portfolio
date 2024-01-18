@@ -1,7 +1,7 @@
 export const projData = [
     {
         image: "/images/projPage/carousel/Imemo.png",
-        href: "https://github.com/Manpreetkaur666/iMemoApp",
+        href: "https://imemo.cyclic.app/#/login",
         title: "iMemoNotes",
         desc: "Empower your note-taking experience! Jot down crucial thoughts and save them securely in your account. Simply log in to access your notes anytime. Edit existing notes or declutter by deleting those no longer needed. Organize with precision by giving each note a title, description, and even a category tag. Elevate your productivity – your notes, your way."
     },
