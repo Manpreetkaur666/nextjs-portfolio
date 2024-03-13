@@ -9,12 +9,12 @@ const Navbar = () => {
   //   setShow(false);
   // }, [show,setShow]);
 
-  
+
   return (
     <div>
-      <nav className="bg-transparent border-gray-200 dark:bg-gray-900 p-4">
+      <nav className="bg-transparent border-gray-200 p-4">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto">
-          <a className="self-center text-3xl sm:text-4xl font-semibold whitespace-nowrap dark:text-white">
+          <a className="self-center text-3xl sm:text-4xl font-semibold whitespace-nowrap">
             <span className="text-4xl font-bold text-[#C1D3FE]">M</span>anpreet
             <span className="text-4xl font-bold text-[#C1D3FE]"> K</span>aur.
           </a>
