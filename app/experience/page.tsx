@@ -23,7 +23,7 @@ const page = () => {
         </div>
         <div className="w-full sm:w-6/12 my-9">
           <h1 className="text-4xl sm:text-5xl font-bold mt-4 sm:mt-24 sm:mb-10 text-center">
-            Experinece
+            Experience
           </h1>
           <h2 className="text-xl sm:text-2xl font-bold text-center text-yellow-color">
             Work, Internship, Volunteership
