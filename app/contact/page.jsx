@@ -87,6 +87,7 @@ const Page = () => {
           <div className="w-fit mx-auto my-8">
             <a
               href="https://drive.google.com/file/d/1lneIpenS8Bw4xhuH-vVfojAR39f-dWhi/view?usp=sharing"
+              target="_blank"
               className="bg-main-light hover:bg-yellow-color text-main-color font-bold py-2 px-8 my-4 rounded"
             >
               See My Resume

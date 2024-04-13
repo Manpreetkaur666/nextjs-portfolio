@@ -2,7 +2,7 @@
 import React from "react";
 import expImg from "../../public/images/expPage/expIntro.svg";
 import Image from "next/image";
-import { expData } from '../data/expData';
+import { expData } from "../data/expData";
 
 const page = () => {
   return (
